@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | Bogdan Oros</title>
+        <link rel="stylesheet" href="styles.css">
+      </head>
+      <body>
+        <!-- <div class="conainer"></div> -->
+        
+        <nav>
+            <img src="media/light.png" class="logo">
+            <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="bookings.html">Bookings</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="merch.html">Merch</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="contact">
+	<h1>Contact Us</h1>
+
+			<p>Have a question or want to get in touch? Fill out the form below and we will get back to you as soon as possible.</p>
+            <form action="contact_confirmation.html" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea><br><br>
+				<input type="submit" value="Send">
+			</form>
+            </div>
+</body>
+<body>
+	<!-- <h1>Connect</h1> -->
+        <br> <br> <br> <br> <br>
+
+	<p>Connect with me on social media:</p>
+	<div class="social-media">
+        <a href="https://www.instagram.com"><img src="Media/instagramLogo.png" alt="Instagram"></a>
+        <a href="https://www.twitter.com"><img src="Media/applemusic" alt="Twitter"></a>
+        <a href="https://www.youtube.com"><img src="Media/YouTubeLogo.png" alt="YouTube"></a>
+		<a href="https://www.facebook.com"><img src="Media/facebookLogo.png" alt="Facebook"></a>
+	</div>
+    <footer>
+        <p>&copy; 2023 Bogdan Oros. All rights reserved.</p>
+      </footer> 
+</body>
+</html>
+
+
+	<style>
+		.social-media {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
+		}
+
+		.social-media a {
+			display: block;
+			margin: 20px;
+		}
+
+		.social-media img {
+			width: 90px;
+			height: 90px;
+			object-fit: cover;
+			border-radius: 50%;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			transition: transform 0.2s ease-in-out;
+		}
+
+		.social-media img:hover {
+			transform: scale(1.1);
+		}
+        #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        /* background-image: url("Media/campvideo.mov"); */
+        color: white;
+
+      }
+	</style>

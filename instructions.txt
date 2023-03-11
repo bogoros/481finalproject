@@ -1,0 +1,9 @@
+Instructions
+
+To build this project you must do the following:
+
+1. Open and download all files from the zip file for this project. 
+2. Open the file "index.html" in your preferred browser. (only important step)
+2. From the browser you can click and navigate the project from the home page.
+3. From the home page you can either scroll down or click on the different pages in the upper right corner.
+3. When done just close the page in the browser.

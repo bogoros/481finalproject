@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bookstyle.css">
+        <title>Bookings | Bogdan Oros</title>
+      </head>
+<body>
+    <nav>
+        <img src="media/light.png" class="logo">
+        <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="bookings.html">Bookings</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="https://premiumagape.myshopify.com"> Merch</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+<main>
+    
+    <h1>Book Bogdan Oros</h1>
+    <p>If you would like to book Bogdan Oros for a performance, event, or worship night, please fill out the form below.</p>
+    <form action="booking_confirmation.html" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required />
+      <label for="time">Time:</label>
+	  <input type="time" id="time" name="time" required />
+      		<label for="event">Event Type:</label>
+		<select name="event" id="event">
+            <option value="Worship Night">Worship Night</option>
+			<option value="Church Service">Church Service</option>
+			<option value="Conference">Conference</option>
+            <option value="Convention">Convention</option>
+			<option value="Wedding">Wedding</option>
+			<option value="Other">Other</option>
+		</select><br> <br>
+      <label for="venue">Venue:</label>
+      <input type="text" id="venue" name="venue" required />
+      <!-- <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required /> -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Send </button>
+      
+    
+    </form>
+  </main>
+  <br>
+      <br>
+      <br>
+  <footer>
+    <p>&copy; 2023 Bogdan Oros. All rights reserved.</p>
+  </footer> 
+  </body>
+  </html>
+
+  <!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Booking Form</title>
+</head>
+<body>
+	<h1>Book an Artist</h1>
+	<form action="booking_handler.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required><br>
+
+		<label for="artist">Artist:</label>
+		<select id="artist" name="artist">
+			<option value="artist1">Artist 1</option>
+			<option value="artist2">Artist 2</option>
+			<option value="artist3">Artist 3</option>
+		</select><br>
+        
+
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date" required><br>
+
+		<label for="time">Time:</label>
+		<input type="time" id="time" name="time" required><br>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<title>Book a Musician</title>
+</head>
+<body>
+	<h1>Book a Musician</h1>
+	<form method="post" action="booking_confirmation.html">
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required><br>
+
+		<label for="phone">Phone:</label>
+		<input type="tel" name="phone" id="phone" required><br>
+
+		<label for="event">Event Type:</label>
+		<select name="event" id="event">
+			<option value="Wedding">Wedding</option>
+			<option value="Corporate Event">Corporate Event</option>
+			<option value="Private Party">Private Party</option>
+			<option value="Other">Other</option>
+		</select><br>
+
+		<label for="date">Event Date:</label>
+		<input type="date" name="date" id="date" required><br>
+
+		<label for="location">Event Location:</label>
+		<input type="text" name="location" id="location" required><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html> -->

@@ -1,0 +1,226 @@
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About | Bogdan Oros</title>
+      <link rel="stylesheet" href="styles.css">
+      <nav>
+        <img src="media/light.png" class="logo">
+        <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="bookings.html">Bookings</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="https://premiumagape.myshopify.com"> Merch</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <title>My Website</title>
+    <style>
+      #scroll-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+      .scroll-img {
+        width: 25%;
+        height: auto;
+        margin: 10px;
+      }
+      
+      /* #about-page {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+      } */
+
+      /* #music,
+      #merch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("Media/campvideo.mov");
+
+      } */
+    </style>
+  </head>
+
+  <div id="about-me">
+      <h1>About Me</h1>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meet Bogdan Oros, a musician, worship leader, and songwriter based in Seattle, Washington. With a passion for creating uplifting and inspiring music, Bogdan has just released a brand new single titled "You Still Fight" and a full-length album called "Trust In You".
+        <br>
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bogdan's journey as a musician has taken him to many different places. Last year, he had the incredible opportunity to tour with Maverick City Music, where he was able to share his music with audiences all over the country. He has also led worship at various conferences and churches, sharing his love for God and music with those around him.
+        <br>
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently, Bogdan is attending Passion for Christ Church and is a vital member of their worship team. Whether he is leading a congregation in song or writing new music, Bogdan is dedicated to using his talents to spread the message of God's love and faithfulness to all who will listen.
+        <br>
+         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through his music, Bogdan hopes to encourage and uplift those who are going through difficult times, reminding them that God is always with them and that they can trust in Him. His unique blend of heartfelt lyrics, soaring melodies, and stirring harmonies make him a true standout in the world of contemporary Christian music.</p>
+
+    </div>
+  <body>
+    <div id="scroll-images">
+      <img class="scroll-img" src="Media/congregation.png">
+      <img class="scroll-img" src="Media/verticalsolo.jpg">
+      <img class="scroll-img" src="Media/campvideo.mov">
+      <img class="scroll-img" src="Media/Oh how I love Jesus.mov">
+      
+    </div>
+    
+  
+    <script>
+      window.onscroll = function() {
+        var images = document.querySelectorAll('.scroll-img');
+        images.forEach(function(img) {
+          var rect = img.getBoundingClientRect();
+          if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+            img.classList.add('visible');
+          }
+        });
+      }
+    </script>
+            <div class="social-media">
+              <a href="https://www.instagram.com/bogdan_oros/"><img src="Media/instagramLogo.png" alt="Instagram"></a>
+              <a href="https://www.twitter.com"><img src="Media/applemusic" alt="Twitter"></a>
+              <a href="https://www.youtube.com"><img src="Media/YouTubeLogo.png" alt="YouTube"></a>
+          <a href="https://www.facebook.com"><img src="Media/facebookLogo.png" alt="Facebook"></a>
+      
+        </div>
+    <footer>
+      <p>&copy; 2023 Bogdan Oros. All rights reserved.</p>
+    </footer> 
+  </body>
+</html>
+
+<style>
+  .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .social-media a {
+    display: block;
+    margin: 20px;
+  }
+
+  .social-media img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .social-media img:hover {
+    transform: scale(1.1);
+  }
+</style>
+  <!-- <!DOCTYPE html>
+<html>
+  <head>
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bogdan Oros</title>
+      <link rel="stylesheet" href="styles.css">
+    
+    <title>My Website</title>
+    <style>
+      #scroll-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+      .scroll-img {
+        width: 25%;
+        height: auto;
+        margin: 10px;
+      }
+      
+      #about-me,
+      #music,
+      #merch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("Media/campvideo.mov");
+
+      }
+    </style>
+  </head>
+
+  <div id="about-me">
+      <h1>About Me</h1>
+      <p>Insert content about yourself here.</p>
+    </div>
+  <body>
+    <div id="scroll-images">
+      <img class="scroll-img" src="Media/congregation.png">
+      <img class="scroll-img" src="Media/verticalsolo.jpg">
+      <img class="scroll-img" src="Media/campvideo.mov">
+      <img class="scroll-img" src="Media/Oh how I love Jesus.mov">
+      
+    </div>
+    
+    
+    
+    <div id="music">
+      <h1>Music</h1>
+      <p>Insert information about your music here.</p>
+      
+    </div>
+    
+    <div id="merch">
+      <h1>Merch</h1>
+      <p>Insert information about your merch here.</p>
+    </div>
+    
+    <div id="contact">
+      <h1>Contact Info</h1>
+      <p>Insert your contact information here.</p>
+    </div>
+    
+    <script>
+      window.onscroll = function() {
+        var images = document.querySelectorAll('.scroll-img');
+        images.forEach(function(img) {
+          var rect = img.getBoundingClientRect();
+          if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+            img.classList.add('visible');
+          }
+        });
+      }
+    </script>
+  </body>
+</html> -->
